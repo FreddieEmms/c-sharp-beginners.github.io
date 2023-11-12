@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C# For Beginners</title>
+    <link rel="stylesheet" href="MainPage.css">
+    <link rel="icon" href="Website_Logo_2.PNG">
+</head>
+
+
+<body>
+    <section id="Chapter5">
+        <header class="BigHeader">
+            Arrays
+        </header>
+        
+        <p class="writeParagraph">
+            Previously, we have introduced 4 new data types integers, doubles, strings, and Boolean however, we are still missing an important one arrays. Think of an array as a shopping list where you have your shop location and the products you need to buy. This means that we can store multiple sets of data under one array instead of traditionally only having one piece of information. Let's try to make one!
+        </p>
+        <p class="writeParagraph">
+            Firstly, we need to declare what data type is within the array. For my example, we will stick to the shopping list so it will be a string array as it is the name of a product within a list. This means that if we write a string then we need to write [] after to declare that it is an array. Next, we need to name our array which we will call shoppingList, and use an equal sign to show the data it is equal to. Now we need to store our data. To show it is a list we use the curly brackets {} and we then place our data inside. The first thing we need to purchase is an orange so we will write (using speech marks because it is a string) "orange". Next, we want to add bananas so we separate the orange by placing a comma after the speech marks and then we write our next item which is "bananas". Hopefully, you get the idea because we can keep on repeating this method. 
+        </p>
+        <p class="writeParagraph">
+            When you run your program, you may notice that nothing is printing. This is because we have only declared a variable and not printed it therefore, the program will do nothing. Let's work out how to print items on our list. When numbers are ordered in an array the first number is a 0 then 1 then 2, etc. This is vital when printing our list as later when we ask for a user's input for what number they want to print off we must minus 1 as the user would assume that the list starts at one! Next, we need to print off our variable. We then write Console.Writeline() and within our brackets we declare our variable and then show what number of the list we want to print off. Let's say we want to print off the first string in our list we would place the order in our list using [] after our variable, for example, shoppingList[0]. This is how we do it:
+
+        </p>
+        <p class="image">
+            <img src="Code_Images/Chapter_5/Using_Arrays_Image.PNG" alt="Pattern 1" title="Using Arrays">
+        </p>
+        <figure>
+            <figcaption class="caption">
+                <a href="Code_examples/Chapter_5/Making_An_Array.cs" class="linkColor">Try here</a>
+            </figcaption>
+        </figure>
+
+        <p class="writeParagraph">
+            I now recommend you experiment with this program by placing a high number for the order. As you may have noticed there should be an error, this is because you can only print strings off from the list that are within the range of the list. 
+        </p>
+        <p class="writeParagraph">
+            Now let's pretend you didn't want oranges instead you wanted tomatoes. This can be done by declaring the location of the string in the program we want to change and changing it to the new variable. For example:
+        </p>
+        <p class="image">
+            <img src="Code_Images/Chapter_5/Changing_An_Array_Image.PNG" alt="Pattern2" title="Changing An Array">
+        </p>
+        <figure>
+            <figcaption class="caption">
+                <a href="Code_examples/Chapter_5/Changing_A_String_In_Array.cs" class="linkColor">Try here</a>
+            </figcaption>
+        </figure>
+
+        <p class="writeParagraph">
+            Now that we can change our list we still have one problem, we want to view the whole list. This is when we use <a href="Chapter4.html" class="linkColor">for loop</a>, Firstly, we need to find the length of our array, this can be done by doing (using our example) shoppingList.length and then assigning it to a variable (which I will call shoppingListLength and will be stored as an integer). Next, we use a for loop and we declare int j = 0 and then continue the loop while j &lt;
+            shoppingListLength. This means that the loop will continue until it equals the shoppingListLength which by then should have printed every string in the array. Also, to print each array we need to increase the order by one each time. In this case, we can just use j because it starts at 0 and is incremented each time. Let's try this out!
+        </p>
+        <p class="image">
+            <img src="Code_Images/Chapter_5/Printing_All_Array_Image.PNG" alt="Pattern3" title="Printing All Of An Array">
+        </p>
+        <figure>
+            <figcaption class="caption">
+                <a href="Code_examples/Chapter_5/2D_Arrays.cs" class="linkColor">Try here</a>
+            </figcaption>
+        </figure>
+
+        <p class="writeParagraph">
+            We still have a problem with our shopping list, we don't know how much of each product we are going to buy. This is when we use 2D arrays. 2D arrays mean that we can store 2 strings under one data type for example we can have "Oranges" and "2" to show we want to buy two oranges. Firstly, within our square brackets we put a comma to have [,], this shows that it is a 2D array. Next, for each string joined together we place it inside a curly bracket {} and then place our data. We then use a comma and use the curly bracket again to show our next piece of data. 
+        </p>
+        <p class="writeParagraph">
+            To print this out it works differently as we use two different locators [x,x]. For each separate curly bracket, this represents our first number so 0 would represent the first curly bracket. The second number would be represented within the curly bracket with the order. Remember within the bracket there can be more than one string! Let's put this into practice by using a 2D array and printing how much of each product we need (using our loop technique from earlier):
+        </p>
+        <p class="largeImage">
+            <img src="Code_Images/Chapter_5/2D_Arrays_Image.PNG" alt="Pattern4" title="Using 2D Arrays">
+        </p>
+        <figure>
+            <figcaption class="caption">
+                <a href="Code_examples/Chapter_5/2D_Arrays.cs" class="linkColor">Try here</a>
+            </figcaption>
+        </figure>
+        <p class="finalLine challenge">
+            <strong>
+                User Challenge: Create a program that uses 2D arrays that uses user inputs
+            </strong>
+        </p>
+        <footer class="textColor">
+            <a href="Chapter5.html" class="textColor">Go To Top</a> | 
+            <a href="My_Website_Project.html" class="textColor">Back To Start</a>
+        </footer>
+    </section>
+    
+</body>
+</html>

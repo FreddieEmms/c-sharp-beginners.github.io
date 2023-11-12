@@ -1,0 +1,144 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato&family=Lora&family=Varela+Round&display=swap');
+
+
+html{scroll-behavior:smooth;}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  body {
+    font-family: 'Lato', sans-serif;
+    font-size: 1.5rem;
+    min-height: 200vh;
+  }
+
+header, footer{
+    color: white;
+    text-align: center;
+    height: 100px;
+}
+
+.linkMiddle{
+    color: black;
+    background-color: transparent;
+}
+
+.caption {
+    color: black;
+    text-align: center;
+    background-color: transparent;
+}
+.finalLine{
+    padding: 50px;
+    padding-bottom: 100px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.chapterLinks{
+    text-align: center;
+    color: black;
+    font-size: 3rem;
+    border: 200px;
+    margin: 10px;
+}
+
+
+
+.linkColor{
+    color: black;
+    background-color: transparent;
+}
+
+.textColor{
+    color: aliceblue;
+    background-color: rgb(103, 185, 212);
+}
+.challenge{
+    text-align: center;
+}
+
+section{
+    height: 100vh;
+}
+.fontsize{
+    font-size: 2rem;
+}
+
+
+
+header{
+    position: sticky;
+    top: 0;
+    font-size: 5rem;
+}
+
+.IntroHeader{
+    background-color: rgb(103, 185, 212);
+}
+.ChapterHeader{
+    background-color: rgb(103, 185, 212);
+}
+.InfoHeader{
+    background-color: rgb(103, 185, 212);
+}
+.BigHeader{
+    background-color: rgb(103, 185, 212);
+}
+footer{
+    background-color: rgb(103, 185, 212);
+    width: 100%;
+    height: 40px;
+    position: fixed;
+    bottom: 0;
+    font-size: 1.5rem;
+    color: transparent;
+}
+
+
+
+
+h2{
+    text-align: center;
+    margin: 10px;
+    padding: 10px;
+}
+
+
+html{scroll-behavior:smooth;}
+
+.writeParagraph{
+    padding: 50px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+}
+
+.image{
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 20px;
+    margin: 50px;
+    width: 750px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.largeImage{
+    border: 2px solid black;
+    margin-top: 20px;
+    padding: 20px;
+    margin: 50px;
+    width: 1050px;
+    text-align: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
